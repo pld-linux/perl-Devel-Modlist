@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	Modlist
-Summary:	Devel::Modlist perl module
-Summary(pl):	Modu³ perla Devel::Modlist
+Summary:	Devel::Modlist - collect module use information
+Summary(pl):	Devel::Modlist - gromadzenie informacji o u¿ywanych modu³ach
 Name:		perl-Devel-Modlist
 Version:	0.5
 Release:	2
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6b60fecb7a20c4c52023535ca3745867
@@ -16,10 +16,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel::Modlist - Perl extension to collect module use information.
+The Devel::Modlist utility is provided as a means by which to get a
+quick run-down on which libraries and modules are being utilized by a
+given script.
 
 %description -l pl
-Modu³ perla Devel::Modlist.
+Narzêdzie Devel::Modlist s³u¿y jako ¶rodek do szybkiego pobierania
+informacji o tym, które biblioteki i modu³y s± wykorzystywane przez
+zadany skrypt.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
