@@ -5,7 +5,7 @@ Summary:	Devel::Modlist perl module
 Summary(pl):	Modu³ perla Devel::Modlist
 Name:		perl-Devel-Modlist
 Version:	0.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
