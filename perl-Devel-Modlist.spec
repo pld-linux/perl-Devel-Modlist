@@ -26,7 +26,7 @@ Modu³ perla Devel::Modlist.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
