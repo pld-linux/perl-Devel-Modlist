@@ -3,7 +3,7 @@ Summary:	Devel-Modlist perl module
 Summary(pl):	Modu³ perla Devel-Modlist
 Name:		perl-Devel-Modlist
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
