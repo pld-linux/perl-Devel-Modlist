@@ -25,7 +25,7 @@ Modu³ perla Devel-Modlist.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
