@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	Modlist
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel-Modlist perl module
 Summary(pl):	Modu³ perla Devel-Modlist
 Name:		perl-Devel-Modlist
 Version:	0.4
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Devel-Modlist - Perl extension to collect module use information.
 Modu³ perla Devel-Modlist.
 
 %prep
-%setup -q -n Devel-Modlist-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
