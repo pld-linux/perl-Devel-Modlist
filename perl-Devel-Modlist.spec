@@ -2,8 +2,8 @@
 Summary:	Devel-Modlist perl module
 Summary(pl):	Modu³ perla Devel-Modlist
 Name:		perl-Devel-Modlist
-Version:	0.2
-Release:	3
+Version:	0.4
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
@@ -34,18 +34,18 @@ rm -rf $RPM_BUILD_ROOT
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/Devel/Modlist
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        Changes README
+	ChangeLog README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {Changes,README}.gz
+%doc {ChangeLog,README}.gz
 
 %{perl_sitelib}/Devel/Modlist.pm
 %{perl_sitearch}/auto/Devel/Modlist
