@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Devel
-%define	pnam	Modlist
+%define		pdir	Devel
+%define		pnam	Modlist
 Summary:	Devel::Modlist - collect module use information
 Summary(pl):	Devel::Modlist - gromadzenie informacji o u¿ywanych modu³ach
 Name:		perl-Devel-Modlist
