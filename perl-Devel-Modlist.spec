@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	Modlist
-Summary:	Devel-Modlist perl module
-Summary(pl):	Modu³ perla Devel-Modlist
+Summary:	Devel::Modlist perl module
+Summary(pl):	Modu³ perla Devel::Modlist
 Name:		perl-Devel-Modlist
 Version:	0.4
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-Modlist - Perl extension to collect module use information.
+Devel::Modlist - Perl extension to collect module use information.
 
 %description -l pl
-Modu³ perla Devel-Modlist.
+Modu³ perla Devel::Modlist.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
