@@ -2,7 +2,7 @@
 %define		pdir	Devel
 %define		pnam	Modlist
 Summary:	Devel::Modlist - collect module use information
-Summary(pl):	Devel::Modlist - gromadzenie informacji o uøywanych modu≥ach
+Summary(pl.UTF-8):   Devel::Modlist - gromadzenie informacji o u≈ºywanych modu≈Çach
 Name:		perl-Devel-Modlist
 Version:	0.7
 Release:	1
@@ -21,9 +21,9 @@ The Devel::Modlist utility is provided as a means by which to get a
 quick run-down on which libraries and modules are being utilized by a
 given script.
 
-%description -l pl
-NarzÍdzie Devel::Modlist s≥uøy jako ∂rodek do szybkiego pobierania
-informacji o tym, ktÛre biblioteki i modu≥y s± wykorzystywane przez
+%description -l pl.UTF-8
+Narzƒôdzie Devel::Modlist s≈Çu≈ºy jako ≈õrodek do szybkiego pobierania
+informacji o tym, kt√≥re biblioteki i modu≈Çy sƒÖ wykorzystywane przez
 zadany skrypt.
 
 %prep
