@@ -2,7 +2,7 @@
 %define		pdir	Devel
 %define		pnam	Modlist
 Summary:	Devel::Modlist - collect module use information
-Summary(pl.UTF-8):   Devel::Modlist - gromadzenie informacji o używanych modułach
+Summary(pl.UTF-8):	Devel::Modlist - gromadzenie informacji o używanych modułach
 Name:		perl-Devel-Modlist
 Version:	0.7
 Release:	1
