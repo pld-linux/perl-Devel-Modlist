@@ -4,7 +4,7 @@ Summary:	Devel::Modlist - collect module use information
 Summary(pl.UTF-8):	Devel::Modlist - gromadzenie informacji o używanych modułach
 Name:		perl-Devel-Modlist
 Version:	0.801
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
